@@ -62,6 +62,7 @@ export default function compile(text) {
 
   code = code.replace(/<>/g, "");
   const tmp = code;
+  cells = [0, 0];
   code = "";
 
   return tmp;
