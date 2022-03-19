@@ -7,10 +7,14 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+$white: #abb2bf;
+$black: #282c34;
+$blue: #3d4350;
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #abb2bf;
-  color: #282c34;
+  background-color: $black;
+  color: $white;
 }

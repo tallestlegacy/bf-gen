@@ -6,9 +6,14 @@
   <div class="input" contenteditable bind:textContent={text} />
 </div>
 
-<style>
+<style lang="scss">
+  @import "../global.scss";
+
   .input {
-    background-color: white;
+    background-color: $white;
+    color: black;
+    font-size: 20px;
+
     box-shadow: 0 6px 32px #0003;
     padding: 1rem;
     border-radius: 1rem;

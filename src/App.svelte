@@ -1,5 +1,5 @@
 <script>
-  import "./global.css";
+  import "./global.scss";
   import Editor from "./lib/Editor.svelte";
   import Output from "./lib/Output.svelte";
 
