@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url(./assets/jetbrains-mono-fonts/JetBrainsMono-Medium.otf);
+}
+
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #abb2bf;
+  color: #282c34;
+}
